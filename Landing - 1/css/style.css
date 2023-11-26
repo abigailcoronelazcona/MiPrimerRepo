@@ -33,32 +33,38 @@ header nav a {
 font-weight: bo;}
 
 
-.wrap {
+/**.wrap {
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(/Mockup/landing.jpg);
   background-size: cover;
   background-position: center;
-}
+}**/
 
-.wrap-texto {
+/**.wrap-texto {
   color: rgb(0, 4, 8);
   text-align: center;
-}
+}**/
+
+main article div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+margin-block-end: 10%;}
 
 .primary-button {
   background-color: rgb(187, 190, 190);
-  padding: 14px 28px;
-  font-size: 16px;
+  padding: 10px 28px;
+  font-size: 15px;
   border-radius: 30px;
   display: flex;
   position: absolute;
   left: 50%;
-  top: 80%;
-  transform: translate(-50%, -50%)
+  top: 85%;
+  transform: translate(-40%, -40%)
 }
 
 footer {
